@@ -1,0 +1,27 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js", "jquery.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "css/compose.css", "style.css" ],
+      "js": [ "lib/require.js", "requireContent.js", "requireConfig.js", "content.js" ],
+      "matches": [ "https://mail.google.com/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://*.google.com https://ssl.google-analytics.com 'unsafe-eval'; object-src 'self'",
+   "description": "Dmail - Finally, sent email has a delete button",
+   "icons": {
+      "128": "img/logo-128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi5t4iVya62QC2WQ4a1WJKq6JImCoGIXVPtsEBQB3cLSXyZcEChs+zXpE28SGqiSrTyLdclq9SkJvE04cHUA/Z8jyw7HgcwiT+HdDWZui0s5dqaxzLlBstttYtMFEpp2mTtEULkERFlZuaZr4VE2AOZJhYh59xNzeCG/sgty/yTxFVZcTOKjZc4AP36TCgF0GUutG1s6rLUk5VnFH/kX+z/Rly2n4KyiA2csRrO4NyesijFmp+s1jJEquGaDlg1EN2tjDLQsUzrhEI/HPY+Eeen9ZOHxdnD4Avn/FEaNvMOKNBs0qOemvIEonqRARXKgBZntiIfn+TDy833FjAGxO7QIDAQAB",
+   "manifest_version": 2,
+   "name": "Dmail",
+   "oauth2": {
+      "client_id": "1005409181628-v1uqe9pf23qh1s6mfd6368ah21cg4lu4.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/gmail.modify", "https://mail.google.com", "https://www.googleapis.com/auth/gmail.compose" ]
+   },
+   "permissions": [ "identity", "background", "http://*/", "https://*.delicious.com/*", "https://*.dmail.io/*", "*://*.google.com/*", "https://www.googleapis.com/*", "https://*.googleusercontent.com/*", "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.4",
+   "web_accessible_resources": [ "lib/*", "js/*", "css/*", "img/*", "requireContent.js", "requireConfig.js", "jquery.js", "aes.js", "tracker.js", "gmailAjax.js", "md5.min.js", "style.css", "gmail.js", "main.js", "backbone.js", "underscore.js", "transport.js", "app.js", "ready.js" ]
+}

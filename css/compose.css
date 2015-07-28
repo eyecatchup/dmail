@@ -1,0 +1,134 @@
+.dmail-compose-footer {
+	min-height: 40px;
+	background-color: whiteSmoke; border: 1px solid #CFCFCF; border-width: 0 1px 1px 1px; margin: 0 -1px; overflow-y: hidden;
+	padding: 1px 0 1px 4px;
+}
+.dmail-compose-footer .dmail-error {
+	color: #fff;
+	background: #F7B825;
+	padding: 6px;
+	display: block;
+	margin-right: 5px;
+	font-size: 13px;
+}
+.gB{
+  margin-bottom: 51px!important;
+}
+.dmail-compose-footer > div {
+	margin: 5px 1px;
+}
+.dmail-compose-footer-send-button {
+	  -webkit-border-radius: 2px;
+	  border-radius: 2px;
+	  cursor: default;
+	  font-size: 11px;
+	  font-weight: bold;
+	  text-align: center;
+	  white-space: nowrap;
+	  margin-right: 16px;
+	  height: 30px;
+	  line-height: 28px;
+	  min-width: 54px;
+	  outline: 0;
+	  padding: 0 8px;
+
+	   -webkit-box-shadow: none;
+	  box-shadow: none;
+	  background-color: #4BB8B2;
+	  border: 1px solid #14978D;
+	  color: #fff;
+}
+.dmail-compose-footer-send-button:hover {
+	background: -moz-linear-gradient(top, #4bb8b2 0%, #14978d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4bb8b2), color-stop(100%,#14978d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #4bb8b2 0%,#14978d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #4bb8b2 0%,#14978d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #4bb8b2 0%,#14978d 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #4bb8b2 0%,#14978d 100%); /* W3C */
+}
+
+.dmail-toolbar-container {
+	margin-right:  0px !important;
+  padding: 3px 5px;
+  color: #6F6F6F;
+  line-height: 30px;
+  width: 93px;
+}
+
+.dmail-toolbar-container .dmail-toolbar-button {
+	cursor: pointer;
+	.border-radius(4px);
+}
+.dmail-toolbar-container .dmail-toolbar-icon {
+	width: 28px;
+	float: right;
+	height: 28px;
+	background: url('chrome-extension://__MSG_@@extension_id__/img/logo-icon.svg');
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: contain;
+	cursor: pointer;
+	  margin-left: 6px;
+}
+
+.dmail-payload {
+	display: none;
+}
+.dmail-message-decorator {
+	border-top: 3px solid #4BB8B2;
+}
+
+.dmail-message-decorator-footer {
+	height: 50px;
+	margin-top: 20px;
+	padding: 0px 30px;
+	line-height: 50px;
+	background: #4BB8B2;
+	color: white;
+	font-size: 12px;
+        cursor: pointer;
+}
+.dmail-message-decorator-footer img {
+	float: right;
+	padding: 12px;
+}
+.dmail-revoke-button {
+	background-color: #D7226A;
+	  background-image: -webkit-linear-gradient(top,#D7226A,#c81e62);
+	  background-image: linear-gradient(top,#D7226A,#c81e62);
+	  border: 1px solid #9e2450;
+	  color: #fff;
+  color: white;
+  bottom: 6px;
+  right: 0px;
+  margin-left: 10px;
+  margin-right: 3px;
+  border: 1px solid rgba(0,0,0,0.1);
+  box-shadow: none;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+  cursor: default;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  height: 27px;
+  line-height: 27px;
+  min-width: 54px;
+  outline: 0;
+  padding: 0 8px;
+}
+#dmail-revoke {
+	color: #4BB8B2;
+}
+#dmail-revoke:hover {
+	background: #eee;
+}
+#gmailJsModalWindowOk {
+	  background-color: #D7226A;
+	  background-image: -webkit-linear-gradient(top,#D7226A,#c81e62);
+	  background-image: linear-gradient(top,#D7226A,#c81e62);
+	  border: 1px solid #9e2450;
+	  color: #fff;
+}

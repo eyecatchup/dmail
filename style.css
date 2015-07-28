@@ -1,0 +1,341 @@
+div.encrypt-button{
+    background-image: linear-gradient(-180deg, #5106F7 0%, #5106F7 100%);
+    border: 1px solid #5106F7;
+    border-radius: 2px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 11px;
+    color: #FFFFFF;
+
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+
+    margin-left: 4px;
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    outline: 0;
+    padding: 0 8px;
+}
+div.encrypt-button:hover{
+    background-image: linear-gradient(-180deg, #5106F7 0%, #5106F7 100%);
+}
+div.encrypt-button:active{
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+    background: #008E50;
+    border: 1px solid #067c48;
+    border-top: 1px solid #067c48;
+}
+
+
+h1 {
+  text-align: center;
+  font-family: Tahoma, Arial, sans-serif;
+  color: orange;
+  margin: 100px 0;
+}
+
+.box {
+  width: 20%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.welcome{
+    position: static!important;
+}
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid orange;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+.button:hover {
+  background: orange;
+}
+
+.overlay {
+  position: fixed!important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: visible;
+  opacity: 1;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.header{
+   
+    width: 100%;
+    height: 60px; 
+}
+.popup {
+    
+    height: 500px;
+  margin: 70px auto;
+  
+  background: #fff;
+  border-radius: 1px;
+  width: 64%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: orange;
+}
+.popup .content {
+  max-height: 70%;
+  
+}
+.mailimg{
+    width: 46%;
+  position: absolute;
+  top: 90px;
+  height: 300px;
+  margin-left: 257px;
+}
+.footer{
+    padding:20px;
+}
+.tip {
+	
+	border: 1px solid #ccc;
+	padding: 10px;
+	//border-radius: 8px;
+	//box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	position: absolute;
+        bottom:90px;
+        background-color: white;
+        margin-top: -44px;
+	width: 250px;
+        height: auto;
+        margin-left: 500px;
+        margin-bottom: 47px;
+}
+.logo-tool{
+ text-align: center; 
+}
+.text{
+      margin-right: 30px;
+      font-size: 24px;
+      margin-left: 78px;
+      margin-top: -38px;
+}
+.button-tool{
+      margin-left: 35px;
+      width: 180px;
+      background-color: black;
+      color: white;
+      height: 32px;
+      border-radius: 6px;
+      cursor: pointer;
+}
+/* arrows - :before and :after */
+.arrow-down {
+	position: absolute;
+  transform: rotate(41deg);
+  margin-top: 30px;
+  margin-left: -177px;
+}
+.border-content{
+    border-bottom-style: solid;
+    border-bottom-color: rgb(204,204,204);
+}
+
+.dmail-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+.dmail-toggle + label {
+  bottom: 20px;
+  left: 114px;
+    display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+input.dmail-toggle-round + label {
+  padding: 1px;
+  width: 40px;
+  height: 19px;
+  background-color: #dddddd;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+}
+input.dmail-toggle-round + label:before, input.dmail-toggle-round + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: "";
+}
+input.dmail-toggle-round + label:before {
+  right: 1px;
+  background-color: #30383D;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-transition: background 0.4s;
+  -moz-transition: background 0.4s;
+  -o-transition: background 0.4s;
+  transition: background 0.4s;
+}
+input.dmail-toggle-round + label:after {
+  width: 20px;
+  background-color: #fff;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  -webkit-transition: margin 0.4s;
+  -moz-transition: margin 0.4s;
+  -o-transition: margin 0.4s;
+  transition: margin 0.4s;
+}
+input.dmail-toggle-round:checked + label:before {
+  background-color: #4BB8B2;
+}
+input.dmail-toggle-round:checked + label:after {
+  margin-left: 20px;
+}
+
+#dl{
+  font-family: arial;
+  font-weight: 100;
+  margin-top: -27px;
+  margin-left: 42px;
+  font-size: 13px;  
+}
+.dmail-button{
+    margin-top: 2px;
+  margin-left: 1px;
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    outline: 0;
+    padding: 0 8px;
+    box-shadow: none;
+    outline: none;
+    top: 51px;
+  position: absolute;
+    z-index: 999;
+}
+
+.dmail-button:hover{
+    background-color: #357ae8;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
+    border:1px solid #2f5bb7;
+    border-bottom-color: #2f5bb7;
+}
+.dmail-display{
+    visibility: hidden;
+}
+#destroy{
+      margin-left: 307px;
+  margin-top: -38px;
+}
+.dropdown{
+    margin-top: -24px;
+  margin-left: 66px;
+  color: #717273;
+  border: 1px solid #C9C9C9;
+  width: 110px;
+  background-color: #F5F5F5;
+  height: 27px;
+  cursor: pointer;
+}
+
+#drp-text{
+    text-align: center;
+  margin-top: 5px;
+}
+.dropdown-menu{
+    position: absolute;
+    border: 1px solid #CBCBCB;
+  width: 171px;
+  height: 104px;
+  margin-top: -135px;
+  background-color: white;
+  margin-left: 273px;
+  list-style: none;
+}
+
+.dropdown-menu li{
+    padding: 2px 1px;
+  margin-left: -14px;
+}
+.dropdown-menu li a, .dropdown-menu li{
+    text-decoration: none!important;
+    color: #585D60!important;
+}
+.disableDmail{
+    pointer-events: none;
+}

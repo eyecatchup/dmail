@@ -2,7 +2,7 @@
 
 Chrome extension to send self-destructing emails (by [delicious](http://mail.delicious.com/)).
 
-<a href="https://chrome.google.com/webstore/detail/dmail/fblelgmhengcpjogkpmmhjghbcelaake" target="_blank"><img src="//lh3.googleusercontent.com/e9O-L4MoiZvsMyf_C8BsSt1eK3eAQMd6euL4PpK2YJwNjn8O0lT_CunFXmzcjABsFjnHqj2Zdac=s0-rw" /></a>
+<a href="https://chrome.google.com/webstore/detail/dmail/fblelgmhengcpjogkpmmhjghbcelaake" target="_blank"><img src="https://lh3.googleusercontent.com/e9O-L4MoiZvsMyf_C8BsSt1eK3eAQMd6euL4PpK2YJwNjn8O0lT_CunFXmzcjABsFjnHqj2Zdac=s0-rw" /></a>
 
 Dmail is a simple way to send - and more importantly unsend - secure emails directly from your Gmail. Dmail ensures only the intended recipient will be able to read the body of your email. As the sender, you can revoke access to any message sent with Dmail at any time, even after it’s been read. Lastly, anyone can read Dmail, regardless of whether they have the plugin installed, or even use Gmail.
 
